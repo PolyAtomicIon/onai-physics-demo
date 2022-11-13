@@ -59,6 +59,14 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 ---
+### Same stuff, but in 3d ?!
+<SimIframe
+  src='https://threejs.org/examples/physics_ammo_rope.html'
+  height="450px"
+  :applyStyle="false"
+/>
+---
+---
 
 # What is Force?
 
