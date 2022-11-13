@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: apple-basic
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -12,7 +12,7 @@ info: |
 drawings:
   persist: false
 css: unocss
-title: Welcome to Slidev
+title: Welcome to lesson
 ---
 
 # Force
@@ -39,6 +39,25 @@ What is force?
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+---
+---
+<SimIframe 
+  src='https://codepen.io/usefulthink/full/YNrvpY'
+  :applyStyle="false"
+  height="470px"
+/>
+
+---
+
+### Force: pushing, pulling and springs!
+<br>
+<SimIframe 
+  src="https://brm.io/matter-js/demo/#slingshot"
+  height="400px"
+/>
+
+
+---
 ---
 
 # What is Force?
@@ -91,7 +110,26 @@ $\vec{\mathbf{W}} - weight [N]$\
 $m - mass [kg]$\
 $\vec{\mathbf{G}} - accelration\: of\: Gravity\: [m / s^2]\: or\: [N / kg]$\
 
+<style>
+h1, h2, h3 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
+---
 ### Sim of gravity
+
+<SimIframe 
+  src="http://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html"
+  :applyStyle="false"
+  height="450px"
+/>
 
 <style>
 h1, h2, h3 {
@@ -104,6 +142,15 @@ h1, h2, h3 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+---
+
+<SimIframe 
+  src="https://lab.nationalmedals.org/gravity.php"
+  height="470px"
+  width="100%"
+  :applyStyle="false"
+/>
 
 
 ---
@@ -122,7 +169,25 @@ $\vec{\mathbf{F}}$ - Force of spring [N]
 $\\k$ - spring constant [N/m]
 $\\\vec{\triangle\mathbf{l}}$ - extension or compressionof spring [m]
 
+<style>
+h1, h2, h3 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
+---
 ### Sim of bow ?!
+<br>
+<SimIframe 
+  src="https://games.crazygames.com/en_US/bowman/index.html"
+  height="470px"
+/>
 
 <style>
 h1, h2, h3 {
@@ -138,6 +203,15 @@ h1, h2, h3 {
 
 
 ---
+---
+# Problem Solving
+<Problem
+  text="John walks down the street and finds out that, what ?!"
+  solution="that sims are not working in this presentation"
+  imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Free_body1.3.svg/220px-Free_body1.3.svg.png"
+/>
+
+---
 layout: two-cols
 ---
 
@@ -146,7 +220,6 @@ layout: two-cols
 # 3. Friction  Force
 
 Always against motion
-<!-- ### Sim of friction ?! -->
 
 </template>
 <template v-slot:right>
@@ -173,4 +246,26 @@ h1, h2, h3 {
 
 ---
 ---
-# More sims coming
+# Sim of friction ?!
+<a href="https://ophysics.com/f1.html" target="_blank"> Friction Sim </a>
+
+---
+---
+# Problem Solving
+<Problem
+  text="John walks down the street and finds out that, what ?!"
+/>
+---
+---
+# Problem Solving
+<Problem
+  text="John walks down the street and finds out that, what ?!"
+  solution="that sims are not working in this presentation"
+/>
+---
+---
+# Problem Solving
+<Problem
+  text="John walks down the street and finds out that, what ?!"
+  imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Free_body1.3.svg/220px-Free_body1.3.svg.png"
+/>
