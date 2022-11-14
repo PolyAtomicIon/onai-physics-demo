@@ -5,10 +5,11 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## 29Digits
+  Interactive Solutions
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [29Digits Studio](https://t.me/digit29)
+
 drawings:
   persist: false
 css: unocss
