@@ -134,7 +134,7 @@ h1, h2, h3 {
 ### Sim of gravity
 
 <SimIframe 
-  src="http://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html"
+  src="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html"
   :applyStyle="false"
   height="450px"
 />
