@@ -1,4 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Interactive presentation for physics lesson build with [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
 
