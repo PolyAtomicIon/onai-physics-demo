@@ -4,9 +4,9 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div>
 
-  <h3 align="center">onai-physics-demo</h3>
+  <h3 >onai-physics-demo</h3>
 
   <p align="center">
     Interactive presentation for physics lesson. Topic: Force. The presentation includes interactive content gathered from web. Only in demonstration and educational purposes.
