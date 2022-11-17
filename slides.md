@@ -50,11 +50,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-### Force: pushing, pulling and springs!
+### Force: pushing, pulling anfdgdfgdfgd springs!
 <br>
 <SimIframe 
   src="https://brm.io/matter-js/demo/#slingshot"
   height="400px"
+  width="300px"        
 />
 
 
