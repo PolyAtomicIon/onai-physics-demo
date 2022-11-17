@@ -8,7 +8,7 @@
 
   <h3 >onai-physics-demo</h3>
 
-  <p align="center">
+  <p>
     Interactive presentation for physics lesson. Topic: Force. The presentation includes interactive content gathered from web. Only in demonstration and educational purposes.
     <br />
     <br />
